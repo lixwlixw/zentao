@@ -11,4 +11,4 @@ EXPOSE 80
 
 ENV SERVICE_NAME=zentao
 
-CMD ./zbox start
+CMD ./zbox start && tail -f
